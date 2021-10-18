@@ -1,0 +1,54 @@
+<h2 mat-dialog-title>Funciones</h2>
+<mat-dialog-content class="mat-typography">
+  <h3>Reconocimiento de voz</h3>
+  <p>
+    Presiona el microfono para poder leer lo que se está diciendo
+  </p>
+
+  <h3>Cambia el tema de la aplicación</h3>
+  <p>
+    Una vez que se activa el microfono se habilitan los siguientes comandos
+  </p>
+
+ 
+  <table>
+    <tr>
+      <th>Comando de Voz</th>
+      <th>Acción</th>
+    </tr>
+    <tr>
+      <td>"Iniciar Cambio de Tema"</td>
+      <td>Habilita la Estrategia para el cambio de Tema</td>
+    </tr>
+    <tr>
+      <td>"Finalizar Cambio de Tema"</td>
+      <td>Finaliza la Estrategia para el cambio de Tema</td>
+    </tr>
+  </table>
+  <p>Nombres de tema disponibles: "púrpura", "azul", "rosa" and "verde"</p>
+
+  <h3>Tablero de comunicación</h3>
+  <p>
+    Seleccionado el botón de tarjetas, podrás acceder a un catalogo de necesidades que generarán voz, o puedes repetir los siguientes comandos
+  </p>
+ 
+
+  <table>
+    <tr>
+      <th>Comando de Voz</th>
+      <th>Acción</th>
+    </tr>
+    <tr>
+      <td>"Yo necesito ayuda"</td>
+      <td>Habilita la Estrategia para desplegar catalogo de necesidades</td>
+    </tr>
+    <tr>
+      <td>"Ya no necesito ayuda"</td>
+      <td>Finaliza la Estrategia de necesidades</td>
+    </tr>
+  </table>
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Aceptar</button>
+</mat-dialog-actions>
